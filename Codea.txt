@@ -1,0 +1,45 @@
+Inicio del contenido del fichero primcipal
+El directorio del proyecto tiene los archivos 
+total 1
+
+-rw-r--r-- 1 pguardia 197121   0 feb. 21 14:51 Codea.txt
+-rw-r--r-- 1 pguardia 197121   0 feb. 21 14:54 dir.txt
+
+-rw-r--r-- 1 pguardia 197121 153 feb. 21 09:06 README.md
+
+Inicio del trabajo con Git.
+En el directorio local lo transformamos en directorio de trabajo Git
+>git init
+
+1.	Se genera el directorio .git con el siuiente contenido:
+.:
+config  description  HEAD  hooks/  info/  objects/  refs/
+
+./hooks:
+applypatch-msg.sample*      post-update.sample*     prepare-commit-msg.sample*  pre-receive.sample*
+commit-msg.sample*          pre-applypatch.sample*  pre-push.sample*            update.sample*
+fsmonitor-watchman.sample*  pre-commit.sample*      pre-rebase.sample*
+
+./info:
+exclude
+
+./objects:
+info/  pack/
+
+./objects/info:
+
+./objects/pack:
+
+./refs:
+heads/  tags/
+
+./refs/heads:
+
+./refs/tags:
+
+2. git add y git reset para poner y quitar ficheros del índice.
+   y con git status vemos el contenido del índice y por tanto el estado de cada fichero.
+   y git diff para ver las direrencias en los ficheros modificados.
+
+
+
